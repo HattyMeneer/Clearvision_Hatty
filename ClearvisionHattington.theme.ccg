@@ -1,0 +1,28 @@
+//META{"name":"ClearVisionCustom","description":"A theme with customizable colors & background! Server: https://discord.me/C8NpVGt","version":"5"}*//{}
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #620000;
+	--hover-color: #8e0f0f;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.userPopout-4pfA0d::before,
+.root-2sNHUF::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://wallpapercave.com/wp/wp2399405.jpg) !important;
+}
